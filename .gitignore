@@ -1,0 +1,11 @@
+# Local LLM Router Gitignore
+node_modules/
+.env
+*.bak
+config/private/
+.vscode/sftp.json
+
+# Secrets
+secrets.json
+*.pem
+*.key
