@@ -1,0 +1,36 @@
+{
+    "name": "llm-router-project",
+    "version": "1.0.0",
+    "description": "Intelligent routing between local Ollama and public LLMs for cost and privacy optimization.",
+    "main": "llm-router.js",
+    "directories": {
+        "doc": "docs",
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint .",
+        "format": "prettier --write .",
+        "helper:comment": "node scripts/local-llm-helper.js comment",
+        "helper:explain": "node scripts/local-llm-helper.js explain",
+        "helper:test": "node scripts/local-llm-helper.js test"
+    },
+    "keywords": [
+        "llm",
+        "ollama",
+        "qwen",
+        "deepseek",
+        "automation",
+        "privacy"
+    ],
+    "author": "Richard",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^9.0.0",
+        "prettier": "^3.2.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
