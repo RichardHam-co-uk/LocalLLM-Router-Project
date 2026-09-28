@@ -1,3 +1,5 @@
+> **Archived 2026-09-28.** This early Node.js local-LLM router is superseded by `richardh-TITR/mac-ai-server-Inference-Router` (the current model gateway). Kept read-only as lineage. Audit: zebadee2kk/portfolio-management#69.
+
 # Local LLM Router
 
 Optimize your LLM usage by offloading menial tasks to local Ollama instances.
